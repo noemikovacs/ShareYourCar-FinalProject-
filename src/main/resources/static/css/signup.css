@@ -1,0 +1,78 @@
+body.add {
+    margin-top: 50px; 
+	
+}
+body.add { 
+  background-image: url("/images/owner-add.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+ 
+}
+
+body.addclient { 
+  background-image: url("/images/client-add.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+ 
+}
+
+body.addcar { 
+  background-image: url("/images/addcar.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+ 
+}
+
+
+.headline {
+    padding: 120px 0;
+}
+
+
+.btn-warning {
+    color: #272B2B;
+    background-color: #FEEA58;
+    border-color: #FEEA58; 
+    width: 100%;
+}
+
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open>.dropdown-toggle.btn-warning {
+    color: #FEEA58;
+    background-color: #3B4245;
+    border-color: #3B4245;  
+}
+
+.topright {
+    position: fixed;
+    top: 8px;
+    right: 100px;
+    font-size: 18px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+@media (min-width: 768px) {
+    .dropdown-menu {
+        border: none;
+        
+        margin-top: -1px;
+    }
+}
